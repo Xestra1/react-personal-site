@@ -9,7 +9,8 @@ class App extends React.Component {
     this.state = {
       name: "NAME NAME",
       title: "TITLE",
-      link: "",
+      link: "https://xestra.us",
+      linkName: "Website",
     }
   }
 
@@ -39,7 +40,10 @@ class App extends React.Component {
               },
               "size": {
                 "value": 1
-              }
+              },
+              "color": {
+                "value": "#777777"
+              },
             },
             "interactivity": {
               "events": {
@@ -47,7 +51,10 @@ class App extends React.Component {
                   "enable": false,
                   "mode": "repulse"
                 }
-              }
+              },
+              "color": {
+                "value": "#777777"
+              },
             }
           }} />
         <div className="body" style={background}>
@@ -56,6 +63,8 @@ class App extends React.Component {
             <hr className="left" style={hr} />
             <h1 style={text}>{this.state.name}</h1>
             <hr className="right" style={hr} />
+            <br /><br />
+            <a className="right link" target="_blank" href={this.state.link} style={text}>{this.state.linkName}</a>
           </div>
         </div>
       </div>
