@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Personal Website
 
-## Available Scripts
+## 😀 About The Project
+A react website that is basic to setup and easy to use. Anyone with some spare time on their hands can use this website for their personal uses.
 
-In the project directory, you can run:
+## 👿 Bugs
+- None
 
-### `yarn start`
+## 🤔 How to use it
+- What you need to install/What you need
+    - A github account | FREE
+        - github desktop | FREE
+    - A zeit.co account | FREE
+    - A text editor | FREE
+    - [node.js]() | FREE
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- How to change the content? / How do I set up the website
+    - Make sure you have a github account and a zeit.co account
+    - Fork this repo then open it in github desktop
+        - You can rename the repo if you want
+    - Then open the folder
+    - First go into the public folder
+        - Then open index.html  
+![](https://xestra.us/i/kis6vz.png "index.html")
+        - You should see some comments telling you where to place stuff do so then move on
+    - Second go the src folder
+        - Then open app.js  
+![](https://xestra.us/i/cxwzq8.png "app.js")
+        - The code in the screenshot is all you need to edit
+        - Fill out the information but do not edit the width property
+    - Open github desktop and commit to master then push to origin
+    - After that open a command prompt 
+    - Navigate to the repo using `cd FILENAME` (If you need help then message me on discord)
+    - Once you get the file type `npm start`
+        - Make sure everything is good then move onto the next step
+    - Press `ctrl+D` to end the localhost
+    - After that use zeit.co by typing `now` into the command prompt
+    - If you want to use a domain then I suggest getting a .tk, .ml, .ga, .cf, or .gq domains (which is free) and using zeit.co to link it to the website
+        - Or if you don't want to go through the work then you can just use zeit.co's subdomains
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 👨‍💻 Contributors
+- [Xestra](https://github.com/Xestra1)
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 🌐 Other Information
+- [Website](https://xestra.us/)
+- [GitHub](https://github.com/Xestra1) 
+- [Discord](https://discord.gg/gRS7gw4)

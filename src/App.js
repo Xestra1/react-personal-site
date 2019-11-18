@@ -9,9 +9,9 @@ class App extends React.Component {
     this.state = {
       name: "NAME NAME",
       title: "TITLE",
-      link: "https://xestra.us",
-      linkName: "Website",
-      width: 0,
+      link: "https://example.com",
+      linkName: "LINKNAME",
+      width: 0, // DO NOT EDIT
     }
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
