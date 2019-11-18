@@ -11,12 +11,29 @@ class App extends React.Component {
       title: "TITLE",
       link: "https://xestra.us",
       linkName: "Website",
+      width: 0,
     }
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+
+  // DO NOT EDIT
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
   }
 
   render() {
 
-    // STYLING
+    // STYLING - BETA
+    // DO NOT USE UNLESS YOU KNOW WHAT YOU ARE DOING
     const background = {
       background: "", // ADD URL HERE
     }
@@ -28,6 +45,20 @@ class App extends React.Component {
       borderColor: "", // ADD COLOR HERE
     }
 
+    // DO NOT EDIT
+    let numOfParticles = 50;
+
+    if (this.state.width <= 384) {
+      numOfParticles = 15
+    } else if (this.state.width <= 768) {
+      numOfParticles = 25
+    } else if (this.state.width <= 1080) {
+      numOfParticles = 50
+    } else {
+      numOfParticles = 75
+    }
+
+    // DO NOT EDIT
     // RETURNS HTML
     return (
       <div>
@@ -36,13 +67,10 @@ class App extends React.Component {
           params={{
             "particles": {
               "number": {
-                "value": 50
+                "value": numOfParticles
               },
               "size": {
                 "value": 1
-              },
-              "color": {
-                "value": "#777777"
               },
             },
             "interactivity": {
@@ -64,7 +92,7 @@ class App extends React.Component {
             <h1 style={text}>{this.state.name}</h1>
             <hr className="right" style={hr} />
             <br /><br />
-            <a className="right link" target="_blank" href={this.state.link} style={text}>{this.state.linkName}</a>
+            <a className="right link" target="_blank" rel="noopener noreferrer" href={this.state.link} style={text}>{this.state.linkName}</a>
           </div>
         </div>
       </div>
