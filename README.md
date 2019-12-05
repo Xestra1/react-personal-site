@@ -38,6 +38,10 @@ A react website that is basic to setup and easy to use. Anyone with some spare t
     - If you want to use a domain then I suggest getting a .tk, .ml, .ga, .cf, or .gq domains (which is free) and using zeit.co to link it to the website
         - Or if you don't want to go through the work then you can just use zeit.co's subdomains
 
+## 🗻 TO-DO
+- Video tutorial
+    - showing how to edit the website and how to deploy it
+
 ## 👨‍💻 Contributors
 - [Xestra](https://github.com/Xestra1)
 
