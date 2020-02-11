@@ -21,11 +21,11 @@ A react website that is basic to setup and easy to use. Anyone with some spare t
     - Then open the folder
     - First go into the public folder
         - Then open index.html  
-![](https://xestra.us/i/kis6vz.png "index.html")
+![](https://i.imgur.com/sB39uYa.png "index.html")
         - You should see some comments telling you where to place stuff do so then move on
     - Second go the src folder
         - Then open app.js  
-![](https://xestra.us/i/cxwzq8.png "app.js")
+![](https://i.imgur.com/zyQuI4Q.png "app.js")
         - The code in the screenshot is all you need to edit
         - Fill out the information but do not edit the width property
     - Open github desktop and commit to master then push to origin
